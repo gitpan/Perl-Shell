@@ -1,0 +1,27 @@
+---
+abstract: "A Python-style \"command line interpreter\" for Perl"
+author:
+  - 'Adam Kennedy <adamk@cpan.org>'
+build_requires:
+  Test::More: 0.42
+  Test::Script: 1.03
+distribution_type: module
+generated_by: 'Module::Install version 0.77'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Perl::Shell
+name: Perl-Shell
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  PPI: 1.200
+  Params::Util: 0.25
+  Term::ReadLine: 0
+  perl: 5.6.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01

@@ -1,0 +1,50 @@
+NAME
+    Perl::Shell - A Python-style "command line interpreter" for Perl
+
+SYNOPSIS
+      C:\Document and Settings\adamk> perlthon
+  
+      >>> print "Hello World!\n";
+      Hello World!
+  
+      >>> 
+
+DESCRIPTION
+    THIS MODULE IS HIGHLY EXPERIMENTAL AND SUBJECT TO CHANGE.
+
+    YOU HAVE BEEN WARNED
+
+    This module provides an implementation of a "command line interpreter"
+    in the style of the Python equivalent.
+
+FUNCTIONS
+  shell
+      Perl::Shell::shell();
+
+      The only public function available is the C<shell> function.
+
+      It takes no arguments and starts up the shell.
+
+SUPPORT
+    Bugs should be reported via the CPAN bug tracker at
+
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Perl-Shell>
+
+    For other issues, or commercial enhancement or support, contact the
+    author.
+
+AUTHOR
+    Adam Kennedy <adamk@cpan.org>
+
+ACKNOWLEGEMENTS
+    Thanks to Ingy for suggesting that this module should exist.
+
+COPYRIGHT
+    Copyright 2008 Adam Kennedy.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+    The full text of the license can be found in the LICENSE file included
+    with this module.
+
