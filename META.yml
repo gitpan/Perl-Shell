@@ -9,7 +9,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.91'
+generated_by: 'Module::Install version 0.93'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,6 +20,7 @@ no_index:
   directory:
     - inc
     - t
+    - xt
 requires:
   Lexical::Persistence: 1.01
   PPI: 1.205
@@ -30,4 +31,4 @@ resources:
   ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/Perl-Shell
   license: http://dev.perl.org/licenses/
   repository: http://svn.ali.as/cpan/trunk/Perl-Shell
-version: 0.03
+version: 0.04

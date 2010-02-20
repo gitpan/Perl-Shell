@@ -15,10 +15,10 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
-script/perlthon
+script/perlcmd
 t/01_compile.t
 t/02_complete.t
 t/03_state.t
-t/97_meta.t
-t/98_pod.t
-t/99_pmv.t
+xt/meta.t
+xt/pmv.t
+xt/pod.t
